@@ -6,7 +6,7 @@ Reference implementation of Domain Operator for Subspace Network Blockchain.
 
 Domains are the decoupled execution layer of the [Subspace Network Blockchain](https://subspace.network) (referred to as the consensus chain below).
 
-The extrinsic of the domain chain is first collected into a bundle by the domain operator, the bundle is then broadcast to the consensus chain network as an extrinsic of the consensus chain.
+The extrinsic of the domain chain is first collected into a bundle by the domain operator; this bundle is then broadcast to the consensus chain network as an extrinsic of the consensus chain.
 
 The domain operator, which listens to the block import events of the consensus chain, extracts bundles from the imported consensus block and executes the extrinsics of the bundle to build and import a domain block in a deterministic manner.
 
