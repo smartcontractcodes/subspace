@@ -22,7 +22,7 @@ target/production/subspace-node domain key create --base-path {subspace-node-bas
 
 Ensure to replace `{subspace-node-base-path}` and `{domain-id}` with the path to your node, and the domain ID value you want to become an operator on.
 
-Backup the key. Take `Public key (hex)` of the keypair. The public key is part of the Operator config.
+Back up the key. Take `Public key (hex)` of the keypair. The public key is part of the Operator config.
 
 The key is automatically added to the keystore located under `/{subspace-node-base-path}/domains/{domain-id}`. 
 
