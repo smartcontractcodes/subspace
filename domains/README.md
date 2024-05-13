@@ -14,7 +14,7 @@ NOTE: Currently, the domain chain does not support syncing from other operator n
 
 #### Create Operator key:
 
-Operator needs key pair to participate in Bundle production.
+The operator needs a key pair to participate in Bundle production.
 You can create a key using following command:
 ```bash
 target/production/subspace-node domain key create --base-path {subspace-node-base-path} --domain-id {domain-id}
